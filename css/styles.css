@@ -1,0 +1,31 @@
+:root {
+ --main-color: #2196F3;
+ --main-font: font-family: 'Roboto', sans-serif;
+ --second-font:font-family:'Raleway', sans-serif;
+  
+}
+.body {
+ font-family: var(--main-font);
+ }
+
+ /* ---------------HEADER --------------*/
+
+.navigation-list-item{
+
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 0.02em;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+ cursor: pointer;
+ color: rgb(230, 18, 18);
+
+}
+.address {
+ font-weight: 400;
+ font-size: 14px;
+ line-height:24px;
+ letter-spacing: 0.03em;
+}
